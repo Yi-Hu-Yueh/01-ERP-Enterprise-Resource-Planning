@@ -1,0 +1,16 @@
+.fg-receipt-notice{padding:18px 22px;margin-bottom:24px;border:1px solid #c4d7b5;background:#f0f6e9;border-radius:8px;color:#21483f;line-height:1.8}
+.fg-receipt-notice p{margin:6px 0 0;font-size:14px}
+.fg-receipt-fields{border:0;margin:0;min-width:0}
+.fg-receipt-source{padding:20px 23px}
+.fg-receipt-source h3{margin:0 0 16px;color:#12373b;font-size:14px}
+.fg-receipt-source .po-header-summary{padding:0}
+.fg-receipt-fields .fg-receipt-source{padding:16px;border:1px solid #dce4de;background:#f8faf7;border-radius:6px}
+.fg-receipt-identity{overflow-wrap:anywhere;font-size:12px}
+.fg-receipt-refresh{display:flex;flex-wrap:wrap;gap:12px;align-items:start}
+.fg-receipt-movement+.fg-receipt-movement{border-top:1px solid #dce4de}
+.fg-receipt-dialog{width:min(1000px,90vw);max-height:90vh;overflow:auto;border:1px solid #c6d3ca;border-radius:12px;padding:28px;color:#163b3e}
+.fg-receipt-dialog::backdrop{background:#102b2ed0}
+.fg-receipt-dialog>.po-header-summary,.fg-receipt-dialog>.fg-receipt-source{padding:16px 0}
+.fg-receipt-dialog>.fg-receipt-source{border-bottom:1px solid #dce4de}
+.fg-receipt-dialog>.fg-receipt-notice{margin:18px 0 0}
+.fg-receipt-dialog .form-actions{position:sticky;bottom:-28px;background:#fbfcfa;margin:0 -28px -28px;padding:22px 28px;border-top:1px solid #d8e1d8}

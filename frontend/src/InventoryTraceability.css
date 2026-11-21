@@ -1,0 +1,68 @@
+.inventory-traceability{min-width:0}
+.inventory-traceability .trace-view-switch{display:flex;gap:9px;margin-bottom:20px;flex-wrap:wrap}
+.inventory-traceability .trace-view-switch .button[aria-pressed=true]{background:#286953;border-color:#286953;color:#fff}
+.inventory-traceability .trace-filters{border:0;margin:0;min-width:0;grid-template-columns:repeat(4,minmax(0,1fr))}
+.inventory-traceability .trace-selection-filters{grid-template-columns:minmax(150px,1fr) minmax(150px,1fr) minmax(240px,2fr)}
+.inventory-traceability .trace-selection-identity{grid-column:1/-1;margin:0;font-size:11px;color:#65796b;overflow-wrap:anywhere}
+.inventory-traceability .form-actions .primary{flex:0 0 auto}
+.inventory-traceability .trace-loading{flex-basis:100%;font-size:11px;color:#647d6c}
+.inventory-traceability .trace-policy{font-size:11px;line-height:1.8;color:#6a7d70;margin:14px 0 20px}
+.inventory-traceability .trace-result-panel{margin-top:20px}
+.inventory-traceability .panel-title{flex-wrap:wrap}
+.inventory-traceability table{font-size:11px}
+.inventory-traceability .trace-movement-table{min-width:1100px}
+.inventory-traceability .trace-movement-table td{vertical-align:top;line-height:1.65}
+.inventory-traceability .trace-movement-table td:nth-child(1){min-width:150px}
+.inventory-traceability .trace-movement-table td:nth-child(2){min-width:160px}
+.inventory-traceability .trace-movement-table td:nth-child(3){min-width:140px}
+.inventory-traceability .trace-movement-table td:nth-child(5){min-width:130px}
+.inventory-traceability .trace-movement-table td:last-child{min-width:180px}
+.inventory-traceability .trace-quantity{font-variant-numeric:tabular-nums;font-weight:650;overflow-wrap:anywhere;color:#28573e}
+.inventory-traceability .trace-quantity.negative{color:#a14e39}
+.inventory-traceability .trace-identity{display:block;font-size:10px;color:#748679;margin-top:4px;overflow-wrap:anywhere;line-height:1.6}
+.inventory-traceability .trace-movement-details{min-width:180px;max-width:350px}
+.inventory-traceability summary{cursor:pointer;color:#315f4a;line-height:1.7}
+.inventory-traceability .trace-record-values{display:grid;grid-template-columns:minmax(95px,auto) minmax(0,1fr);gap:9px 14px;font-size:11px;line-height:1.7;margin:14px 0}
+.inventory-traceability .trace-record-values dt{color:#6f8274}
+.inventory-traceability .trace-record-values dd{margin:0;color:#375743;overflow-wrap:anywhere;white-space:pre-wrap;min-width:0}
+.inventory-traceability .trace-record-values .trace-record-values{margin:0}
+.inventory-traceability .trace-record-values ol{padding-left:18px;margin:0}
+.inventory-traceability .trace-record-values li+li{margin-top:12px}
+.inventory-traceability .trace-documents{display:grid;gap:7px;margin-top:10px}
+.inventory-traceability .trace-documents p{margin:0}
+.inventory-traceability .trace-evidence-legend{padding:18px 22px;background:#fafbf8;border-bottom:1px solid #e4eae2}
+.inventory-traceability .trace-evidence-legend h3{font-size:12px;margin:0 0 12px}
+.inventory-traceability .trace-evidence-legend ul{padding-left:18px;margin:0;display:grid;gap:9px;font-size:11px;line-height:1.8;color:#627665}
+.inventory-traceability .trace-evidence{display:inline-block;font-size:10px;font-weight:600;border:1px solid #d7e3d3;border-radius:4px;padding:3px 7px;background:#eef6e9;color:#376d43;white-space:normal;line-height:1.6}
+.inventory-traceability .trace-evidence-work_order{background:#edf3f8;border-color:#d7e2ea;color:#426784}
+.inventory-traceability .trace-evidence-pooled{background:#fcf7e7;border-color:#eadfb8;color:#80672e}
+.inventory-traceability .trace-evidence-unproven{background:#fcf0ea;border-color:#eed4c4;color:#a14e39}
+.inventory-traceability .trace-limitations{margin:18px 22px;border:1px solid #eadfb8;border-radius:6px;padding:15px 17px;background:#fffdf5}
+.inventory-traceability .trace-limitations h3{font-size:13px;margin:0 0 10px;color:#735d31}
+.inventory-traceability .trace-limitations ul{padding-left:18px;margin:0;display:grid;gap:12px;font-size:12px;line-height:1.8}
+.inventory-traceability .trace-section-heading{margin:22px 22px 10px;font-size:14px;color:#284d3c}
+.inventory-traceability .trace-direction-note{margin:0 22px 14px;font-size:11px;line-height:1.8;color:#677d6b}
+.inventory-traceability .trace-path{list-style:none;display:grid;gap:11px;padding:0 22px;margin:0 0 22px;counter-reset:trace-steps}
+.inventory-traceability .trace-edge{border:1px solid #dde6dc;border-radius:6px;padding:14px 16px;background:#fbfcfa;counter-increment:trace-steps}
+.inventory-traceability .trace-edge-path{display:flex;gap:12px;align-items:center;flex-wrap:wrap;font-size:12px;line-height:1.7}
+.inventory-traceability .trace-edge-path:before{content:counter(trace-steps);border-radius:50%;width:23px;height:23px;display:grid;place-items:center;background:#e6eee2;color:#507044;font-size:10px;flex-shrink:0}
+.inventory-traceability .trace-node-link{border:0;background:none;padding:0;text-align:left;font-weight:600;color:#2f6950;font-size:12px;line-height:1.7;overflow-wrap:anywhere}
+.inventory-traceability .trace-arrow{color:#728d79}
+.inventory-traceability .trace-edge-meta{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin:11px 0 0;font-size:11px;color:#6a7d70}
+.inventory-traceability .trace-edge-note{font-size:11px;line-height:1.8;margin:9px 0 0;color:#657b6a}
+.inventory-traceability .trace-nodes{display:grid;gap:10px;margin:0 22px 22px}
+.inventory-traceability .trace-node{border:1px solid #dbe5d8;border-radius:6px;background:#fff;scroll-margin-top:20px}
+.inventory-traceability .trace-node>summary{padding:14px 16px;font-size:12px;overflow-wrap:anywhere}
+.inventory-traceability .trace-node>summary>span+span{margin-left:12px}
+.inventory-traceability .trace-node-kind{font-size:10px;color:#6d8271}
+.inventory-traceability .trace-node-selected{font-size:10px;color:#567b40;background:#eff5e9;border-radius:4px;padding:3px 6px;margin-left:10px}
+.inventory-traceability .trace-node-body{padding:0 16px 7px;border-top:1px solid #e9eee7}
+.inventory-traceability .trace-node:focus{outline:2px solid #52845f;outline-offset:3px}
+.inventory-traceability .trace-record-name{color:#2f5d45}
+.inventory-traceability .trace-empty{min-height:140px;font-size:12px;color:#728572;line-height:1.8}
+.inventory-traceability .trace-pagination{align-items:center;justify-content:center;font-size:11px;color:#6b7d6e;flex-wrap:wrap}
+.inventory-traceability .trace-context-heading{padding:18px 22px;border-top:1px solid #e2e9df}
+.inventory-traceability .trace-context-heading h3{font-size:14px;margin:0 0 8px}
+.inventory-traceability .trace-context-heading p{font-size:11px;color:#6d806f;line-height:1.8;margin:0}
+.inventory-traceability .trace-failed-result{font-size:11px;line-height:1.8;color:#a14e39}
+@media(max-width:1150px){.inventory-traceability .trace-filters{grid-template-columns:repeat(2,minmax(0,1fr))}.inventory-traceability .trace-selection-filters>div:last-of-type{grid-column:1/-1}}

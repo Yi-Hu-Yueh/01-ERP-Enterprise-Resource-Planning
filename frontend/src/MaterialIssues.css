@@ -1,0 +1,20 @@
+.issue-page {display:flex;flex-direction:column;gap:24px;min-width:0}
+.issue-page .page-heading,.issue-page .content-grid {margin-bottom:0}
+.issue-page .panel {min-width:0}
+.issue-page .form-actions {display:block}
+.issue-page .button-row {display:flex;flex-wrap:wrap;gap:12px}
+.issue-page td,.issue-page dd,.issue-page details {overflow-wrap:anywhere;white-space:normal}
+.issue-page td {vertical-align:top}
+.issue-page details {margin-top:12px;color:#607a76}
+.issue-page details p {line-height:1.7}
+
+.issue-page .button-row .action-feedback {flex-basis:100%}
+.issue-demo-disclosure {padding:12px 16px;border:1px solid #decf9b;border-radius:5px;background:#fff9e8;color:#735b25;font-weight:600}
+.issue-confirm-backdrop {z-index:30}
+.modal.issue-post-dialog {max-width:1000px;width:100%}
+.issue-post-dialog:focus {outline:2px solid #558b70;outline-offset:3px}
+.issue-post-dialog .modal-body p {line-height:1.8}
+.issue-post-dialog .po-header-summary {margin:18px 0}
+.issue-post-dialog .table-wrap {margin:20px 0}
+.issue-post-dialog td {vertical-align:top;white-space:normal;overflow-wrap:anywhere}
+.issue-post-dialog .form-actions {position:sticky;bottom:0;background:#fbfcfa}

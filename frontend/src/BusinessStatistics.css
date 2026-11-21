@@ -1,0 +1,67 @@
+.business-statistics{min-width:0}
+.business-statistics .statistics-tabs{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:20px}
+.business-statistics .statistics-tabs [aria-pressed=true]{background:#286953;border-color:#286953;color:#fff}
+.business-statistics .statistics-filters{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px 20px;min-width:0;border:0;margin:0}
+.business-statistics .statistics-filters label{display:block;font-size:11px;color:#4d675a;font-weight:550;margin-bottom:7px}
+.business-statistics .form-actions .primary{flex:0 0 auto}
+.business-statistics .statistics-loading{flex-basis:100%;font-size:11px;color:#647d6c}
+.business-statistics .statistics-loading:empty{display:none}
+.business-statistics .statistics-scope{margin:18px 0 24px;padding:14px 17px;border-left:3px solid #90aa83;background:#f0f4ed;font-size:11px;line-height:1.85;color:#60755e;overflow-wrap:anywhere}
+.business-statistics .statistics-scope p{margin:0}
+.business-statistics .statistics-scope p+p{margin-top:5px}
+.business-statistics .statistics-section-title{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:24px 0 13px}
+.business-statistics .statistics-section-title>span{font-size:10px;color:#748473}
+.business-statistics .statistics-counts{display:flex;flex-wrap:wrap;gap:10px}
+.business-statistics .statistics-count{flex:1 1 145px;padding:13px 16px;border:1px solid #dce4de;border-radius:6px;background:#fff}
+.business-statistics h3{font-size:11px;font-weight:550;color:#69806e;margin:0 0 10px}
+.business-statistics .statistics-count>strong{font-size:23px;color:#315e45;line-height:1.2}
+.business-statistics .statistics-count>span{font-size:10px;color:#81917d;margin-left:7px}
+.business-statistics .statistics-number{font-variant-numeric:tabular-nums;overflow-wrap:anywhere;white-space:normal}
+.business-statistics .statistics-amounts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:11px;margin-top:12px}
+.business-statistics .statistics-amount-card{padding:16px 18px;border:1px solid #d4e1ce;border-radius:6px;background:#f8fbf5}
+.business-statistics .statistics-amount{display:flex;flex-direction:column;gap:4px;min-width:145px;font-size:11px;line-height:1.7;overflow-wrap:anywhere}
+.business-statistics .statistics-amount+.statistics-amount{margin-top:12px;padding-top:10px;border-top:1px solid #edf1e8}
+.business-statistics .statistics-amount>strong{font-size:15px;color:#315b43}
+.business-statistics .statistics-amount-card .statistics-amount>strong{font-size:26px;line-height:1.35}
+.business-statistics .statistics-amount small{font-size:10px;color:#7c8a74}
+.business-statistics .statistics-metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:11px;margin-top:12px}
+.business-statistics .statistics-metric{border:1px solid #dce4de;border-radius:6px;background:#fff;padding:16px 17px;min-width:0}
+.business-statistics .statistics-current{border-color:#cdd9b7;background:#fafbf5}
+.business-statistics .statistics-metric-value{display:flex;gap:10px;align-items:baseline;justify-content:space-between}
+.business-statistics .statistics-metric-value+.statistics-metric-value{margin-top:10px;padding-top:10px;border-top:1px solid #edf1e8}
+.business-statistics .statistics-metric-value>strong{font-size:22px;line-height:1.4;color:#315e45;min-width:0}
+.business-statistics .statistics-metric-value>span{font-size:10px;color:#7b8a76;flex-shrink:0;text-align:right}
+.business-statistics .statistics-metric-value small{display:block;font-size:9px;line-height:1.8}
+.business-statistics .statistics-metric>p{font-size:11px;color:#82907d;margin:0}
+.business-statistics .statistics-metric-note{display:block;font-size:10px;color:#8a8060;margin-top:10px;line-height:1.7}
+.business-statistics .statistics-indicators{display:flex;gap:12px;flex-wrap:wrap;margin-top:13px}
+.business-statistics .statistics-indicators article{padding:14px 17px;border:1px solid #dce4de;border-radius:6px;background:#f8faf5;flex:1 1 280px}
+.business-statistics .statistics-indicators strong{font-size:20px;color:#315e45}
+.business-statistics .statistics-indicators span{font-size:10px;color:#7b8a76;margin-left:10px}
+.business-statistics .statistics-indicators p{font-size:10px;color:#7b8a76;line-height:1.8;margin:8px 0 0}
+.business-statistics .statistics-policy{font-size:11px;line-height:1.9;color:#71816c;margin:13px 0 22px}
+.business-statistics .statistics-breakdowns>.panel+.panel,.business-statistics .statistics-sources>.panel+.panel{margin-top:14px}
+.business-statistics .statistics-breakdowns td{vertical-align:top;line-height:1.8}
+.business-statistics .statistics-breakdowns td:first-child{min-width:145px}
+.business-statistics .statistics-breakdowns td:nth-child(2){min-width:130px}
+.business-statistics .statistics-group-count{margin:0 0 5px;white-space:nowrap}
+.business-statistics .statistics-unit-groups{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));min-width:210px}
+.business-statistics .statistics-unit-group>strong{font-size:10px;color:#6a8269}
+.business-statistics .statistics-unit-group dl{display:grid;grid-template-columns:minmax(125px,1fr) auto;gap:3px 13px;margin:7px 0 0}
+.business-statistics .statistics-unit-group dt{font-size:10px;color:#81907b}
+.business-statistics .statistics-unit-group dd{font-size:11px;margin:0;text-align:right;color:#375c43;font-weight:550}
+.business-statistics .statistics-sources table{min-width:780px}
+.business-statistics .statistics-sources td{vertical-align:top;line-height:1.8;width:25%}
+.business-statistics .statistics-sources td>small,.business-statistics .statistics-sources td>div>small{display:block;font-size:10px;line-height:1.8;color:#7d8d79;overflow-wrap:anywhere}
+.business-statistics .statistics-record{margin-top:8px;min-width:190px}
+.business-statistics .statistics-record>summary{cursor:pointer;color:#326d50;font-size:11px;line-height:1.9}
+.business-statistics .statistics-record-values{display:grid;grid-template-columns:minmax(90px,auto) minmax(0,1fr);gap:7px 12px;font-size:10px;line-height:1.8;margin:12px 0}
+.business-statistics .statistics-record-values dt{color:#7b8b74}
+.business-statistics .statistics-record-values dd{color:#466541;margin:0;overflow-wrap:anywhere}
+.business-statistics .statistics-related{font-size:10px;line-height:1.8}
+.business-statistics .statistics-related p{margin:9px 0}
+.business-statistics .statistics-related small{display:block;font-size:9px;color:#87947d;overflow-wrap:anywhere}
+.business-statistics .statistics-pagination{align-items:center;justify-content:center;gap:10px;font-size:10px;color:#7e8b73}
+.business-statistics .statistics-empty{font-size:12px;color:#7c8b74;text-align:center;padding:25px 20px;line-height:1.8;margin:0}
+.business-statistics .statistics-stale{font-size:11px;color:#a14e39;line-height:1.8;margin:15px 0}
+.business-statistics .panel-title{flex-wrap:wrap}

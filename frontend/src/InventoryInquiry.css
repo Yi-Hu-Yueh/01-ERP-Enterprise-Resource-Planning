@@ -1,0 +1,9 @@
+.inventory-inquiry .inventory-filters{border:0;margin:0;min-width:0}
+.inventory-inquiry table{font-size:12px}
+.inventory-inquiry .inventory-quantity{font-variant-numeric:tabular-nums;overflow-wrap:anywhere;color:#284d3c;font-weight:650}
+.inventory-inquiry .inventory-scope{padding:0 22px;font-size:12px;line-height:1.8}
+.inventory-inquiry .inventory-details{min-width:420px}
+.inventory-inquiry .inventory-warehouse{border:1px solid #dce4de;border-radius:6px;margin:10px 0;padding:14px;background:#fafbf8}
+.inventory-inquiry .inventory-warehouse h3{margin:0;font-size:14px}
+.inventory-inquiry .inventory-warehouse p{line-height:1.8}
+.inventory-inquiry .inventory-identity{display:block;color:#60796a;font-size:10px;overflow-wrap:anywhere;margin-top:4px}

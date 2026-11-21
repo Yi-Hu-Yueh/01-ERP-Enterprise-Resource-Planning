@@ -1,0 +1,12 @@
+.completion-notice{padding:18px 22px;margin-bottom:24px;border:1px solid #c4d7b5;background:#f0f6e9;border-radius:8px;color:#21483f;line-height:1.8}
+.completion-notice p{margin:6px 0 0;font-size:14px}
+.completion-fields{border:0;margin:0;min-width:0}
+.completion-progress{padding:24px}
+.completion-progress h3{margin:0 0 16px;color:#12373b}
+.completion-progress .po-header-summary{padding:0}
+.completion-warning{padding:12px;background:#fff2d8;color:#725015;border-radius:6px;line-height:1.7}
+.completion-identity{overflow-wrap:anywhere;font-size:13px}
+.completion-dialog{width:min(900px,90vw);max-height:90vh;overflow:auto;border:1px solid #c6d3ca;border-radius:12px;padding:28px;color:#163b3e}
+.completion-dialog::backdrop{background:#102b2ed0}
+.completion-dialog>.po-header-summary{padding:12px 0}
+.completion-dialog .form-actions{position:sticky;bottom:-28px;background:white;margin:0 -28px -28px;padding:22px 28px;border-top:1px solid #d8e1d8}
