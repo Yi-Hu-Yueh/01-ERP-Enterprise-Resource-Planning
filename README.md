@@ -213,8 +213,6 @@ ERP 上方提供三個獨立控制：**「備份 SQLite」／「清空 SQLite」
 
 | 文件 | 內容 |
 |---|---|
-| `ERP-SYSTEM-ANALYSIS.md` | 30 個作業的整體資料模型、欄位、關聯、ERD 與跨模組設計 |
-| `ERP-User-REVIEW.md` | D01–D16 業務政策決策與待核准事項 |
 | `STANDALONE-EXPORT-IMPLEMENTATION.md` | Windows 獨立匯出的 Codex 實作與驗證報告 |
 | `SQLITE-MAINTENANCE-IMPLEMENTATION.md` | SQLite 備份、清空、恢復之 Codex 實作與驗證報告 |
 | `AGENTS.md` | 本專案 Codex 工作規則及資料保存指示 |
@@ -222,4 +220,3 @@ ERP 上方提供三個獨立控制：**「備份 SQLite」／「清空 SQLite」
 
 ---
 
-**專案開發原則：先盤點有哪些模組、哪些作業；再做完整系統分析；最後分階段實作、測試、由 User 驗收。**
