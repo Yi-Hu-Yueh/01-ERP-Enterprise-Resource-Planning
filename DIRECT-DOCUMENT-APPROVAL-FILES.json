@@ -1,0 +1,35 @@
+{
+  "added": [
+    "D:\\0TIGER\\6months\\PythonAPIDevelopment\\Tiger-NL-TigerInCodex-ERP-V4\\01-ERP-Enterprise-Resource-Planning\\frontend\\src\\DocumentApproval.tsx",
+    "D:\\0TIGER\\6months\\PythonAPIDevelopment\\Tiger-NL-TigerInCodex-ERP-V4\\01-ERP-Enterprise-Resource-Planning\\frontend\\src\\ApprovalAssignees.tsx",
+    "D:\\0TIGER\\6months\\PythonAPIDevelopment\\Tiger-NL-TigerInCodex-ERP-V4\\01-ERP-Enterprise-Resource-Planning\\backend\\tests\\test_direct_document_approval.py",
+    "D:\\0TIGER\\6months\\PythonAPIDevelopment\\Tiger-NL-TigerInCodex-ERP-V4\\01-ERP-Enterprise-Resource-Planning\\frontend\\tests\\direct-document-approval.spec.ts"
+  ],
+  "modified": [
+    "D:\\0TIGER\\6months\\PythonAPIDevelopment\\Tiger-NL-TigerInCodex-ERP-V4\\01-ERP-Enterprise-Resource-Planning\\frontend\\src\\PurchaseOrders.tsx",
+    "D:\\0TIGER\\6months\\PythonAPIDevelopment\\Tiger-NL-TigerInCodex-ERP-V4\\01-ERP-Enterprise-Resource-Planning\\frontend\\src\\WorkOrders.tsx",
+    "D:\\0TIGER\\6months\\PythonAPIDevelopment\\Tiger-NL-TigerInCodex-ERP-V4\\01-ERP-Enterprise-Resource-Planning\\frontend\\src\\SalesOrders.tsx",
+    "D:\\0TIGER\\6months\\PythonAPIDevelopment\\Tiger-NL-TigerInCodex-ERP-V4\\01-ERP-Enterprise-Resource-Planning\\frontend\\src\\ApprovalWorkspace.tsx",
+    "D:\\0TIGER\\6months\\PythonAPIDevelopment\\Tiger-NL-TigerInCodex-ERP-V4\\01-ERP-Enterprise-Resource-Planning\\frontend\\src\\Approval.css",
+    "D:\\0TIGER\\6months\\PythonAPIDevelopment\\Tiger-NL-TigerInCodex-ERP-V4\\01-ERP-Enterprise-Resource-Planning\\backend\\app\\approvals.py",
+    "D:\\0TIGER\\6months\\PythonAPIDevelopment\\Tiger-NL-TigerInCodex-ERP-V4\\01-ERP-Enterprise-Resource-Planning\\backend\\app\\approvals_engine.py",
+    "D:\\0TIGER\\6months\\PythonAPIDevelopment\\Tiger-NL-TigerInCodex-ERP-V4\\01-ERP-Enterprise-Resource-Planning\\backend\\app\\approvals_common.py"
+  ],
+  "new_documentation": [
+    "D:\\0TIGER\\6months\\PythonAPIDevelopment\\Tiger-NL-TigerInCodex-ERP-V4\\01-ERP-Enterprise-Resource-Planning\\DIRECT-DOCUMENT-APPROVAL-IMPLEMENTATION.md",
+    "D:\\0TIGER\\6months\\PythonAPIDevelopment\\Tiger-NL-TigerInCodex-ERP-V4\\01-ERP-Enterprise-Resource-Planning\\DIRECT-DOCUMENT-APPROVAL-FILES.json"
+  ],
+  "generated": [
+    "frontend/dist/**",
+    "frontend/tsconfig.tsbuildinfo",
+    "artifacts/direct-document-approval-2026-11-21/**"
+  ],
+  "append_only_histories": [
+    "01-ERP-Enterprise-Resource-Planning.md",
+    "01-ERP-Enterprise-Resource-Planning-COMPACT.md"
+  ],
+  "original_attachment": "conversation-assets/direct-document-approval-2026-11-21/Pasted text.txt",
+  "owner_database_changed": false,
+  "migration_added": false,
+  "standalone_rebuilt": false
+}

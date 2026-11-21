@@ -1,0 +1,61 @@
+{
+  "project": "01-TIC-ERP-Enterprise-Resource-Planning",
+  "workspace": "D:\\0TIGER\\6months\\PythonAPIDevelopment\\Tiger-NL-TigerInCodex-ERP-V4\\01-ERP-Enterprise-Resource-Planning",
+  "added": [
+    "backend/app/approvals.py",
+    "backend/app/approvals_common.py",
+    "backend/app/approvals_demo.py",
+    "backend/app/approvals_engine.py",
+    "backend/app/approvals_org.py",
+    "backend/app/approvals_schema.py",
+    "backend/migrations/versions/0021_electronic_approvals.py",
+    "backend/tests/test_approvals.py",
+    "backend/tests/seed_approval_browser.py",
+    "frontend/src/ApprovalContext.tsx",
+    "frontend/src/ApprovalOrganization.tsx",
+    "frontend/src/ApprovalDefinitions.tsx",
+    "frontend/src/ApprovalWorkspace.tsx",
+    "frontend/src/Approval.css",
+    "frontend/tests/approval-workflow.spec.ts",
+    "scripts/verify_approval_workflow.py",
+    "scripts/verify_approval_migration.py",
+    "ELECTRONIC-APPROVAL-IMPLEMENTATION.md",
+    "ELECTRONIC-APPROVAL-FILES.json",
+    "conversation-assets/electronic-approval-2026-11-21/Pasted text.txt"
+  ],
+  "modified": [
+    "backend/app/main.py",
+    "backend/app/work_orders.py",
+    "backend/app/sales.py",
+    "frontend/src/App.tsx",
+    "README.md"
+  ],
+  "append_only_histories": [
+    "01-ERP-Enterprise-Resource-Planning.md",
+    "01-ERP-Enterprise-Resource-Planning-COMPACT.md"
+  ],
+  "generated": [
+    "frontend/dist/**",
+    "frontend/tsconfig.tsbuildinfo",
+    "standalone-runtime/TIGER-ERP/**",
+    "artifacts/electronic-approval-2026-11-21/**"
+  ],
+  "authorized_owner_changes": {
+    "data/erp.sqlite": "16 new empty tables, constraints/indexes/triggers; Alembic head0021 only; existing business rows/schema preserved",
+    "data/backups/sqlite/erp-backup-5318797a-2f59-46f6-b3ee-94825df59418.sqlite": "new verified current-schema managed backup",
+    "data/backups/sqlite/5318797a-2f59-46f6-b3ee-94825df59418.json": "new signed backup metadata",
+    "data/backups/sqlite/registry.json": "managed new-backup registration"
+  },
+  "preserved": [
+    "AGENTS.md",
+    "backend/app/db.py",
+    "backend/app/sqlite_maintenance.py",
+    "backend/app/standalone_export.py",
+    "frontend/src/api.ts",
+    "all original Owner business rows",
+    "all prior managed backup versions",
+    "standalone-export/TIGER-ERP-Standalone.zip",
+    "standalone-export/TIGER-ERP/TIGER-ERP.exe",
+    "standalone-export/TIGER-ERP/seed/erp.sqlite3"
+  ]
+}

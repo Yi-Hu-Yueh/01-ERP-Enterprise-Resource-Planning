@@ -75,3 +75,15 @@ frontend/playwright-report/
 /frontend/tests/inventory-traceability.spec.ts
 /scripts/verify_issue_owner.py
 /scripts/verify_approval_migration.py
+
+# Owner-authorized public document snapshots (2026-11-22); assets/data remain private.
+!/01-ERP-Enterprise-Resource-Planning.md
+!/01-ERP-Enterprise-Resource-Planning-COMPACT.md
+!/AGENTS.md
+!/DIRECT-DOCUMENT-APPROVAL-FILES.json
+!/DIRECT-DOCUMENT-APPROVAL-IMPLEMENTATION.md
+!/ELECTRONIC-APPROVAL-FILES.json
+!/ELECTRONIC-APPROVAL-IMPLEMENTATION.md
+!/ERP-OWNER-REVIEW.md
+!/ERP-SYSTEM-ANALYSIS.before-round2-2026-11-18T09-12-10-901Z.md
+!/ERP-SYSTEM-ANALYSIS.md
